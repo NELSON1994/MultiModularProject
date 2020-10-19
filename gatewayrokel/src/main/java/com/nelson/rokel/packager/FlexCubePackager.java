@@ -2,6 +2,10 @@ package com.nelson.rokel.packager;
 
 import org.jpos.iso.*;
 
+/*
+@Author: Nelson
+@Date: OCT-2020
+ */
 public class FlexCubePackager extends ISOBasePackager {
 
     private static final boolean pad = false;

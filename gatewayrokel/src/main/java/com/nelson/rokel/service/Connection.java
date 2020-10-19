@@ -17,7 +17,8 @@ import java.io.IOException;
 import java.util.Date;
 
 /*
- * @Aurthor:Nelson
+@Author: Nelson
+@Date: OCT-2020
  */
 
 @Service("connectionInterface")

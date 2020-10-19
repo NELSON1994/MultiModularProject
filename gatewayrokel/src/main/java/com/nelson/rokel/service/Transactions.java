@@ -17,8 +17,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /*
- * @Aurthor:Nelson.Otieno
- * @Date: Sep-2020
+@Author: Nelson
+@Date: SEP-2020
  */
 
 @Service("transactioninterface")

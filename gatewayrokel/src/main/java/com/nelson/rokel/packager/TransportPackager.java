@@ -127,7 +127,7 @@ public class TransportPackager extends ISOBasePackager {
                 /*087*/ new IFB_NUMERIC(16, "Credits, reversal amount", pad),
                 /*088*/ new IFB_NUMERIC(16, "Debits, amount", pad),
                 /*089*/ new IFB_NUMERIC(16, "Debits, reversal amount", pad),
-                /*090*/ new IFB_NUMERIC(10, "Authorizations, reversal number", pad),
+                /*090*/ new IFB_NUMERIC(42, "Authorizations, reversal number", pad),// was 10
                 /*091*/ new IFB_NUMERIC(3, "Country code, transaction Dest. Inst.", pad),
                 /*092*/ new IFB_NUMERIC(3, "Country code, transaction Orig. Inst.", pad),
                 /*093*/ new IFB_LLNUM(11, "Transaction Dest. Inst. Id code", pad),
@@ -149,7 +149,7 @@ public class TransportPackager extends ISOBasePackager {
                 /*109*/ new IFB_LLCHAR(84, "Credits, Fee amounts"),
                 /*110*/ new IFB_LLCHAR(84, "Debits, Fee amounts"),
                 /*111*/ new IFB_LLLCHAR(999, "Reserved for ISO use"),
-                /*112*/ new IFB_LLLCHAR(999, "Reserved for ISO use"),//============will use to store POSIRIS DATA
+                /*112*/ new IFB_LLLCHAR(999, "Reserved for ISO use"),
                 /*113*/ new IFB_LLLCHAR(999, "Reserved for ISO use"),
                 /*114*/ new IFB_LLLCHAR(999, "Reserved for ISO use"),
                 /*115*/ new IFB_LLLCHAR(999, "Reserved for ISO use"),

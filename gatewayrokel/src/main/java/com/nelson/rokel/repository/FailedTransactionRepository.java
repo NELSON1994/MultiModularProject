@@ -6,7 +6,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 /*
- * @Aurthor:Nelson
+@Author: Nelson
+@Date: OCT-2020
  */
 @Repository
 public interface FailedTransactionRepository extends JpaRepository<FailedTransaction,Long> {

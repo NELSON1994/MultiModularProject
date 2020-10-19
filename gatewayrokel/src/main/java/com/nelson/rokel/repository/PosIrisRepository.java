@@ -8,7 +8,8 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 /*
- * @Aurthor:Nelson
+@Author: Nelson
+@Date: OCT-2020
  */
 @Repository
 public interface PosIrisRepository extends JpaRepository<PosIris,Long> {
